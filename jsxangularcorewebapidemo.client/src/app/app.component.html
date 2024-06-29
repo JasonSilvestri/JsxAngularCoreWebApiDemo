@@ -1,0 +1,27 @@
+<h1 id="tableLabel">jSX Angular Core Web API Demo Project</h1>
+<h2>Phase 1: Weather Forecast</h2>
+<p>This Angular component demonstrates fetching weather data from the server. However, this initial page is the absolute, bare minimum, vanilla version of the application required in order for it run, typically found in out-of-the-box Visual Studio Angular Client-Side &amp; Asp.NET Core Server-Side Templates &amp; CLIs. This is absolutely by my design. </p>
+<br />
+<p>Although the development Phases may change, there are 4 major phases I have planned, in which I plan to put the jSX Blazor, jSX Angular, jSX React &amp; jSX Vue backed Asp.net Core projects through. This is also a deliberate attempt to show the evolution of typical Minimum Viable Products to Pruduction Ready Products, and when Minimum Viable Products must begin to make the more careful approach to development in very different, thoughtful, careful and secure ways.</p>
+
+<p *ngIf="!forecasts"><em><b>Loading...</b></em> Please refresh once the ASP.NET backend has started.</p>
+
+<table *ngIf="forecasts">
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Temp. (C)</th>
+      <th>Temp. (F)</th>
+      <th>Summary</th>
+    </tr>
+  </thead>
+  <tbody>
+    
+    <tr *ngFor="let forecast of forecasts">
+      <td>{{ forecast.date }}</td>
+      <td>{{ forecast.temperatureC }}</td>
+      <td>{{ forecast.temperatureF }}</td>
+      <td>{{ forecast.summary }}</td>
+    </tr>
+  </tbody>
+</table>

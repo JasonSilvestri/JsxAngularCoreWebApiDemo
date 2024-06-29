@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsxAngularCoreWebApiDemo.Server", "JsxAngularCoreWebApiDemo.Server\JsxAngularCoreWebApiDemo.Server.csproj", "{56DC216C-8CAD-4E18-9988-6968AE7AC538}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "jsxangularcorewebapidemo.client", "jsxangularcorewebapidemo.client\jsxangularcorewebapidemo.client.esproj", "{BD51B302-4904-4D40-8BA3-9924F8B4C76E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JsxClassLibrary", "..\JsxClassLibrary\JsxClassLibrary.csproj", "{AF53BB80-C7B6-46D7-BF16-661F756F8CD7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JsxSharedResources", "..\JsxSharedResources\JsxSharedResources.csproj", "{A6045C88-BD2F-4EB1-B9CB-82B6E7E015C0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JsxWebApi", "..\JsxWebApi\JsxWebApi.csproj", "{ADB3D4B1-4094-4392-8A3E-CB7AD7BBCA68}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56DC216C-8CAD-4E18-9988-6968AE7AC538}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56DC216C-8CAD-4E18-9988-6968AE7AC538}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56DC216C-8CAD-4E18-9988-6968AE7AC538}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56DC216C-8CAD-4E18-9988-6968AE7AC538}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD51B302-4904-4D40-8BA3-9924F8B4C76E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD51B302-4904-4D40-8BA3-9924F8B4C76E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD51B302-4904-4D40-8BA3-9924F8B4C76E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{BD51B302-4904-4D40-8BA3-9924F8B4C76E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD51B302-4904-4D40-8BA3-9924F8B4C76E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD51B302-4904-4D40-8BA3-9924F8B4C76E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{AF53BB80-C7B6-46D7-BF16-661F756F8CD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF53BB80-C7B6-46D7-BF16-661F756F8CD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF53BB80-C7B6-46D7-BF16-661F756F8CD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF53BB80-C7B6-46D7-BF16-661F756F8CD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6045C88-BD2F-4EB1-B9CB-82B6E7E015C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6045C88-BD2F-4EB1-B9CB-82B6E7E015C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6045C88-BD2F-4EB1-B9CB-82B6E7E015C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6045C88-BD2F-4EB1-B9CB-82B6E7E015C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADB3D4B1-4094-4392-8A3E-CB7AD7BBCA68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADB3D4B1-4094-4392-8A3E-CB7AD7BBCA68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADB3D4B1-4094-4392-8A3E-CB7AD7BBCA68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADB3D4B1-4094-4392-8A3E-CB7AD7BBCA68}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67292F17-2F84-4E0D-A04B-C2CB79B9B166}
+	EndGlobalSection
+EndGlobal

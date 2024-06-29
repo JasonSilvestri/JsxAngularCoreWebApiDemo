@@ -1,0 +1,65 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <SpaRoot>..\jsxangularcorewebapidemo.client</SpaRoot>
+    <SpaProxyLaunchCommand>npm start</SpaProxyLaunchCommand>
+    <SpaProxyServerUrl>https://localhost:4200</SpaProxyServerUrl>
+    <Title>jSX Angular Core Web API Demo Project: Phase 1</Title>
+    <Version>2024.0.0.001</Version>
+    <Authors>Jason Silvestri</Authors>
+    <Company>jSilvestri.com</Company>
+    <Product>jSX Angular Core Web API Demo Asp.NET Core Project: From the jSilvestri.com BETA v 2024 Web API Demo Collection</Product>
+    <Description>   
+      Currently in Phase 1 of 4, this project is one of several projects from the jSilvestri.com BETA v 2024 Web API Demo Collection.
+    </Description>
+    <Copyright>Copyright © 2024 All Rights Reserved by Jason Silvestri</Copyright>
+    <PackageIcon>favicon.ico</PackageIcon>
+    <PackageProjectUrl>https://github.com/JasonSilvestri/JsxAngularCoreWebApiDemo</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/JasonSilvestri/JsxAngularCoreWebApiDemo.git</RepositoryUrl>
+    <PackageReleaseNotes>
+      06/29/2024 JSILVESTRI.COM BETA V 2024.0.0.001 Release
+      Current Workflow State: Completed
+      Mobile / Web Developer: Jason Silvestri
+
+      Date Reported:    June 26, 2024
+      Date Completed: June 29, 2024
+      Build: BETA v 2024.0.0.001
+
+      All Notes:
+      This release (2024.0.0.001) marks the first iteration of the Official jSX Angular Core Web API Demo from the jSilvestri.com BETA v 2024 Web API Demo Collection.
+
+      ⚠️ IMPORTANT! ⚠️
+
+      This is the initial Phase 1 of 4 release of the application. It includes only the essential resources by design, and it will have a release lifecycle of already planned phases and features, also by design.
+    </PackageReleaseNotes>
+
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\JsxSharedResources\favicon.ico">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.SpaProxy">
+      <Version>8.*-*</Version>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\JsxClassLibrary\JsxClassLibrary.csproj" />
+    <ProjectReference Include="..\..\JsxSharedResources\JsxSharedResources.csproj" />
+    <ProjectReference Include="..\..\JsxWebApi\JsxWebApi.csproj" />
+    <ProjectReference Include="..\jsxangularcorewebapidemo.client\jsxangularcorewebapidemo.client.esproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+
+</Project>
