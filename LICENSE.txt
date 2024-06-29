@@ -1,6 +1,20 @@
-MIT License
+jSilvestri.com BETA v 2024 jSX Demo Collection : 
+[jSX Angular Asp.NET Core Web API Demo Project]
+(https://github.com/JasonSilvestri/JsxAngularCoreWebApiDemo)
 
-Copyright (c) [year] [fullname]
+Phase 1
+
+[Licensed under MIT]
+(https://github.com/JasonSilvestri/JsxAngularCoreWebApiDemo/master/LICENSE)
+
+Copyright © 2024 · All Rights Reserved by Jason Silvestri  
+
+============================================================================
+Authors & Developers of Code: Jason Silvestri, 
+Solution Architect, Lead Sr. Web Software Engineer & Full-Stack Developer
+
+Ownership: Jason Silvestri
+============================================================================
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
